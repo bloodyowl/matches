@@ -1,6 +1,6 @@
 {
   "name": "bloody-matches",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "matches selectors for every browser who supports `querySelectorAll`",
   "main": "index.js",
   "directories": {
