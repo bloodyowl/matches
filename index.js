@@ -8,6 +8,9 @@ var matches =
   docEl.msMatchesSelector ||
   function(selector) {
     var element = this
+    if(element.nodeType != 1) {
+      throw new TypeError()
+    }
     var parent = element.parentNode
     var match
     var index = -1
